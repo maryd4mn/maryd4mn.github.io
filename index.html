@@ -118,6 +118,7 @@ h1::after{color:#00e5ff;mix-blend-mode:screen;animation:gl2 4.5s infinite}
 .sy button{padding:10px 18px;border:0;border-radius:10px;background:var(--red);color:#fff;font-weight:500;cursor:pointer}
 .sy .sc,.sy .sk{background:rgba(255,255,255,.12)}
 .sy textarea{width:100%;background:#0a0607;color:var(--txt);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:10px;font-family:monospace;font-size:13px}
+.pr.nm{font-size:28px}
 .st{font-family:Unbounded,sans-serif;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--red);margin:54px 0 18px}
 .sv{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:16px}
 .s{position:relative;display:flex;flex-direction:column;gap:18px;padding:26px;border-radius:20px;background:linear-gradient(160deg,#1c0a0e,#0b0708);border:1px solid rgba(255,18,48,.3);overflow:hidden;transition:transform .3s,box-shadow .3s,border-color .3s}
@@ -194,8 +195,19 @@ footer{margin-top:40px;color:var(--mut);font-size:12px;letter-spacing:.2em;text-
 Удобное время для созвона: 
 
 Как можно оплатить?" href="https://t.me/z4vetvip" target="_blank" rel="noopener">Оформить <span>→</span></a></div>
+    <div class="s rv" style="--d:1.3s"><h3>Создание сайта</h3><div class="pr nm">Договорная</div><a class="bt" data-u="https://t.me/the_arcwarden" data-m="Привет! Хочу заказать создание сайта.
+
+Какой сайт нужен (визитка, лендинг, магазин и т.д.): 
+
+Примеры / референсы: 
+
+Сроки: 
+
+Бюджет: 
+
+Жду предложение по цене." href="https://t.me/the_arcwarden" target="_blank" rel="noopener">Обсудить <span>→</span></a></div>
   </div>
-  <script>document.querySelectorAll('.bt').forEach(function(b){b.href='https://t.me/z4vetvip?text='+encodeURIComponent(b.dataset.m)})</script>
+  <script>document.querySelectorAll('.bt').forEach(function(b){b.href=(b.dataset.u||'https://t.me/z4vetvip')+'?text='+encodeURIComponent(b.dataset.m)})</script>
 </main>
 </div>
 <div class="mq"><div id="mq"></div></div>
